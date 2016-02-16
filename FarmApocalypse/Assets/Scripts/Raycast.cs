@@ -3,18 +3,15 @@ using System.Collections;
 
 public class Raycast : MonoBehaviour {
 	public Camera CameraFacing;
-	public float Speed;
-	public GameObject Cube;
 	void Update () {
 		RaycastHit hit;	
 		{
 			if (Physics.Raycast  (new Ray (CameraFacing.transform.position,
 				CameraFacing.transform.rotation * Vector3.forward),
 				out hit)) {
-				if (hit.collider.tag == "Test")
+				if (hit.collider.tag == "Trigger")
 				{
-					GetComponent<Rigidbody>().velocity = transform.forward * Speed;
-					Destroy (Cube);
+					// move BOTH cameras
 				}
 
 			}
