@@ -12,6 +12,7 @@ public class Raycast : MonoBehaviour {
 				if (hit.collider.tag == "Trigger")
 				{
 					// move BOTH cameras
+					Debug.Log("triggered");
 				}
 
 			}
