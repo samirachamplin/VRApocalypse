@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{83FA9DC7-A0A0-1AF2-6DAF-6F7599716F85}") = "FarmApocalypse", "Assembly-CSharp-firstpass.csproj", "{92E91E24-FAD0-0BF4-2FAF-D7F95BA42031}"
+EndProject
+Project("{83FA9DC7-A0A0-1AF2-6DAF-6F7599716F85}") = "FarmApocalypse", "Assembly-CSharp.csproj", "{71981AAF-2B68-905E-B4E9-E7E6FBFDB172}"
+EndProject
+Project("{83FA9DC7-A0A0-1AF2-6DAF-6F7599716F85}") = "FarmApocalypse", "Assembly-CSharp-Editor.csproj", "{375CEA37-ED5B-02D1-CDDC-C85E74338F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92E91E24-FAD0-0BF4-2FAF-D7F95BA42031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E91E24-FAD0-0BF4-2FAF-D7F95BA42031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E91E24-FAD0-0BF4-2FAF-D7F95BA42031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E91E24-FAD0-0BF4-2FAF-D7F95BA42031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71981AAF-2B68-905E-B4E9-E7E6FBFDB172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71981AAF-2B68-905E-B4E9-E7E6FBFDB172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71981AAF-2B68-905E-B4E9-E7E6FBFDB172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71981AAF-2B68-905E-B4E9-E7E6FBFDB172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375CEA37-ED5B-02D1-CDDC-C85E74338F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375CEA37-ED5B-02D1-CDDC-C85E74338F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375CEA37-ED5B-02D1-CDDC-C85E74338F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375CEA37-ED5B-02D1-CDDC-C85E74338F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
