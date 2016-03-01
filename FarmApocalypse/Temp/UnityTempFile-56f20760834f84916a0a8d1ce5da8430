@@ -119,6 +119,7 @@
 'Assets/SceneAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
 'Assets/SceneAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
 'Assets/Scripts/EnemyAI.cs'
+'Assets/Scripts/GuiLevel.cs'
 'Assets/Scripts/MouseLook.cs'
 'Assets/Scripts/Raycast.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
