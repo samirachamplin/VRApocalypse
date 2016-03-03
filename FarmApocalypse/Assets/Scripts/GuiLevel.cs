@@ -3,11 +3,10 @@ using System.Collections;
 
 public class GuiLevel : MonoBehaviour {
 
-		void OnGUI ()
+	public void Clickme ()
 		{
-			if(GUI.Button(new Rect(10,10,150,100), "Click"))
-			{
+			
 				Debug.Log("Button Clicked");
-			}
+			
 		}
 	}
