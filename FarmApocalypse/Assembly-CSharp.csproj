@@ -85,6 +85,7 @@
      <Compile Include="Assets\SceneAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\Scripts\BatAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\EnemyBatHit.cs" />
      <Compile Include="Assets\Scripts\GuiLevel.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\Raycast.cs" />
