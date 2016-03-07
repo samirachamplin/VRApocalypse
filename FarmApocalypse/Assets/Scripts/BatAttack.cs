@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BatAttack : MonoBehaviour {
 
-
+	public float speed;
 	//void onclick () {
 		//Play.animation()
 		//}
@@ -11,8 +11,8 @@ public class BatAttack : MonoBehaviour {
 	{
 		if(col.gameObject.name == "Sheep")
 		{
-			//Apply force To sheep 
+			transform.TransformDirection(new Vector3(0, 0,speed));
+		}
 
 		}
 	}
-}
