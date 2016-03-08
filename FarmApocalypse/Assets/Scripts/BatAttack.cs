@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BatAttack : MonoBehaviour {
 
+<<<<<<< Updated upstream
 	public float speed;
 	//void onclick () {
 		//Play.animation()
@@ -16,3 +17,11 @@ public class BatAttack : MonoBehaviour {
 
 		}
 	}
+=======
+	void Update(){
+		if (Input.GetMouseButtonDown (0)) {
+	//play bat animation	
+		}
+	}
+}
+>>>>>>> Stashed changes
