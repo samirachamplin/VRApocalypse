@@ -1,4 +1,10 @@
 
+/FarmApocalypse/Library
+/FarmApocalypse/Temp
+*.suo
+*.sln
+*.csproj
+
 FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp.dll
 
 FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
