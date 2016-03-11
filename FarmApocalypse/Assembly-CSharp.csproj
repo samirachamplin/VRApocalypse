@@ -214,7 +214,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Rewired_Core">
- <HintPath>/Users/smchamplin16/Desktop/VRApocalypse/FarmApocalypse/Assets/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
+ <HintPath>/Users/pjhaselhors17/Desktop/Desktop/VRApocalypse/FarmApocalypse/Assets/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
