@@ -1,56 +1,12 @@
 
-/FarmApocalypse/Library
-/FarmApocalypse/Temp
-*.suo
-*.sln
-*.csproj
-
-FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp.dll
-
-FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-
-FarmApocalypse/Library/assetDatabase3
-
-FarmApocalypse/Library/metadata/00/00000000000000003000000000000000
-
-FarmApocalypse/Library/metadata/00/00000000000000004000000000000000
-
-FarmApocalypse/Library/metadata/00/00000000000000006100000000000000
-
-*.backup
-
-FarmApocalypse/Temp/UnityTempFile-960d312d9e327444e8b0dbe108cb3074
-
-FarmApocalypse/Temp/UnityTempFile-55e508d54ce1d41679152de964c121a8
-
-FarmApocalypse/Assets/Scripts/GuiLevel.cs
-
-FarmApocalypse/Library/shadercompiler-UnityShaderCompiler0.log
-
-FarmApocalypse/Temp/UnityTempFile-16c834ed1cd164a978c123b591c3dc9d
-
-FarmApocalypse/Temp/UnityTempFile-3bcf6e75d9a1144708d6439aef56fedf
-
-FarmApocalypse/Temp/UnityTempFile-9c2613ad9b09c4e13b708ed10c3cc9e1
-
-FarmApocalypse/Temp/UnityTempFile-d3a850a22c8fe480b8fb38dce2c900bc
-
-FarmApocalypse/Library/shadercompiler-UnityShaderCompiler0.log
-
-FarmApocalypse/Assets/Scripts/GuiLevel.cs
-
-FarmApocalypse/Assets/SceneAssets/PainterlyNature.meta
-
-FarmApocalypse/Assembly-CSharp-Editor.csproj
-
-FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-
-FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
-
-FarmApocalypse/Library/metadata/ce/ce938de6bdbcf4e8fb146b769564e794
-
-FarmApocalypse/Library/metadata/38/386a81fda40fb4d92aaf2dcab16a6997
-
-FarmApocalypse/Library/InspectorExpandedItems.asset
-
-FarmApocalypse/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+ .DS_Store
+ *.swp
+ *.Trashes
+ 
+ Library
+ Temp
+ *.csproj
+ *.pidb
+ *.unityproj
+ *.sln
+ *.userprefs
