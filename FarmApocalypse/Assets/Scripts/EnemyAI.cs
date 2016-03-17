@@ -5,33 +5,42 @@ public class EnemyAI: MonoBehaviour {
 	public Transform target;
 	public int moveSpeed;
 	public int rotationSpeed;
-	public int maxdistance;
+	public bool inTrigger;
+	public int maxDistance;
 
 	private Transform myTransform;
 
-	void Awake(){
+	void Awake() {
 		myTransform = transform;
 	}
 
-
-	void Start () {
+	// Use this for initialization
+	void Start() {
 		GameObject go = GameObject.FindGameObjectWithTag("Player");
 
 		target = go.transform;
 
-		maxdistance = 2;
+		maxDistance = 2;
 	}
 
+	// Update is called once per frame
+	void Update() {
 
-	void Update () {
-		
-		myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed * Time.deltaTime);
+		if(inTrigger){
+			myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed * Time.deltaTime);
 
-		if(Vector3.Distance(target.position, myTransform.position) > maxdistance){
-			//Move towards target
-			myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
-
+			if(Vector3.Distance(target.position, myTransform.position) > maxDistance){
+				myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
+			}
 		}
-	} 
 
+	}
+
+	void OnTriggerEnter(Collider other) {
+		inTrigger = true;
+	}
+
+	void OnTriggerExit(Collider other) {
+		inTrigger = false;    
+	}
 }
