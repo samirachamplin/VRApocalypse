@@ -1,14 +1,19 @@
 
- .DS_Store
- *.swp
- *.Trashes
+ $PROJDIR/Library/
+ $PROJDIR/Temp/
+ $PROJDIR/Obj/
  
- Library
- Temp
  *.csproj
  *.pidb
  *.unityproj
  *.sln
  *.userprefs
+ *.user
  *.lockfile
- *.meta
+ *.DS_store
+ *.DS_store?
+ *._*
+ .Spotlight-V100
+ .Trashes
+ ehthumbs.db
+ Thumbs.db
