@@ -2,11 +2,12 @@
 using Rewired;
 
 public class ControllerTest : MonoBehaviour {
-	public int playerId;
+	public int playerId = 0;
 	private Player player;
 
 	void Awake() {
 		player = ReInput.players.GetPlayer(playerId);
+
 	}
 
 	void Update() {

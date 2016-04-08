@@ -133,10 +133,12 @@
      <Compile Include="Assets\Scripts\ControllerTest.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBatHit.cs" />
+     <Compile Include="Assets\Scripts\FPS.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\GuiLevel.cs" />
      <Compile Include="Assets\Scripts\JoystickTest.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Raycast.cs" />
      <None Include="Assets\SceneAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\SceneAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

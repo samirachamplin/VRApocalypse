@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
-using Rewired;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -42,13 +41,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-		public int playerId;
-		private Player player;
-        // Use this for initialization
-		void awake ()
-		{
-			Player systemPlayer = ReInput.players.GetSystemPlayer();
-		}
+
 
 		private void Start()
 
