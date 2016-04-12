@@ -1,4 +1,12 @@
 sceneSetups:
-- path: Assets/Assets copy/Scenes/#2 Farm Scene.unity
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Assets copy/Scenes/#7FinalBoss.unity
+=======
+- path: Assets/Assets copy/Scenes/gazeTest.unity
+>>>>>>> origin/master-update
+=======
+- path: Assets/Assets copy/Scenes/gazeTest.unity
+>>>>>>> origin/master-update
   isLoaded: 1
   isActive: 1
