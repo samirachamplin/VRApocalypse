@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 sceneSetups:
 - path: Assets/Assets copy/Scenes/#3 Farmhouse.unity
   isLoaded: 1
   isActive: 1
-=======
-sceneSetups: []
->>>>>>> Stashed changes
