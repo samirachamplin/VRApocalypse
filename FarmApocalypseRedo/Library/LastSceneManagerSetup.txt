@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Assets copy/Scenes/gazeTest.unity
+- path: Assets/Assets copy/Scenes/#3 Farmhouse.unity
   isLoaded: 1
   isActive: 1
