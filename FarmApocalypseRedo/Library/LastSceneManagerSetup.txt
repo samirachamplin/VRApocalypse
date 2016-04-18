@@ -1,16 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-- path: Assets/Assets copy/Scenes/#3 Farmhouse.unity
-=======
-- path: Assets/Assets copy/Scenes/#2 Farm Scene.unity
->>>>>>> Stashed changes
-=======
-<<<<<<< HEAD
-- path: Assets/Assets copy/Scenes/#2 Farm Scene.unity
-=======
-- path: Assets/Assets copy/Scenes/#3 Farmhouse.unity
->>>>>>> origin/master-update
->>>>>>> origin/master-update
+- path: Assets/Assets copy/Scenes/#5Level1.unity
   isLoaded: 1
   isActive: 1
