@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Assets copy/Scenes/#2 Farm Scene.unity
+- path: Assets/Assets copy/Scenes/#5Level1.unity
   isLoaded: 1
   isActive: 1
