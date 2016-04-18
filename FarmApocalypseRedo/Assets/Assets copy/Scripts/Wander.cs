@@ -13,6 +13,8 @@ public class Wander : MonoBehaviour
 
 	CharacterController controller;
 	float heading;
+	float heading_;
+	float turn;
 	Vector3 targetRotation;
 
 	void Awake ()
@@ -22,8 +24,19 @@ public class Wander : MonoBehaviour
 		// Set random initial rotation
 		heading = Random.Range(0, 360);
 		transform.eulerAngles = new Vector3(0, heading, 0);
-
+		turn = Random.Range (160, 180);
 		StartCoroutine(NewHeading());
+	}
+	 
+	void OnCollisionEnter (Collision col)
+	{
+		if(col.gameObject.name == "Fence")
+		{
+			transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
+			var forward = transform.TransformDirection(Vector3.forward);
+			controller.SimpleMove(forward * speed);
+		}
+	
 	}
 
 	void Update ()
@@ -55,4 +68,24 @@ public class Wander : MonoBehaviour
 		heading = Random.Range(floor, ceil);
 		targetRotation = new Vector3(0, heading, 0);
 	}
+
+	IEnumerator NewHeadingAway ()
+	{
+		while (true) {
+			NewHeadingAwayRoutine();
+			yield return new WaitForSeconds(directionChangeInterval);
+		}
+	}
+
+	/// <summary>
+	/// Calculates a new direction to move towards.
+	/// </summary>
+	void NewHeadingAwayRoutine ()
+	{
+		var floor_ = Mathf.Clamp(heading - maxHeadingChange, 160, 180);
+		var ceil_  = Mathf.Clamp(heading + maxHeadingChange, 160, 180);
+		turn = Random.Range(floor_, ceil_);
+		targetRotation = new Vector3(0, heading, 0);
+	}
+
 }
