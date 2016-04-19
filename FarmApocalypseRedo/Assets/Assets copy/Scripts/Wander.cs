@@ -28,22 +28,14 @@ public class Wander : MonoBehaviour
 		StartCoroutine(NewHeading());
 	}
 	 
-	void OnCollisionEnter (Collision col)
-	{
-		if(col.gameObject.name == "Fence")
-		{
-			transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
-			var forward = transform.TransformDirection(Vector3.forward);
-			controller.SimpleMove(forward * speed);
-		}
-	
-	}
+
 
 	void Update ()
 	{
 		transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
 		var forward = transform.TransformDirection(Vector3.forward);
 		controller.SimpleMove(forward * speed);
+
 	}
 
 	/// <summary>
@@ -68,24 +60,5 @@ public class Wander : MonoBehaviour
 		heading = Random.Range(floor, ceil);
 		targetRotation = new Vector3(0, heading, 0);
 	}
-
-	IEnumerator NewHeadingAway ()
-	{
-		while (true) {
-			NewHeadingAwayRoutine();
-			yield return new WaitForSeconds(directionChangeInterval);
-		}
-	}
-
-	/// <summary>
-	/// Calculates a new direction to move towards.
-	/// </summary>
-	void NewHeadingAwayRoutine ()
-	{
-		var floor_ = Mathf.Clamp(heading - maxHeadingChange, 160, 180);
-		var ceil_  = Mathf.Clamp(heading + maxHeadingChange, 160, 180);
-		turn = Random.Range(floor_, ceil_);
-		targetRotation = new Vector3(0, heading, 0);
-	}
-
+		
 }
