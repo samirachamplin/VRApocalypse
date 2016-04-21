@@ -136,9 +136,14 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     excludedTargetPlatforms:
+<<<<<<< Updated upstream
     - Web
     - Standalone
     - iPhone
+=======
+    - Standalone
+    - Web
+>>>>>>> Stashed changes
   - serializedVersion: 2
     name: Fantastic
     pixelLightCount: 4
@@ -165,9 +170,14 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     excludedTargetPlatforms:
+<<<<<<< Updated upstream
     - iPhone
     - Standalone
     - Web
+=======
+    - Web
+    - Standalone
+>>>>>>> Stashed changes
   m_PerPlatformDefaultQuality:
     Android: 2
     BlackBerry: 2
