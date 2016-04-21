@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Assets copy/Scenes/#7FinalBoss.unity
-=======
-- path: Assets/Assets copy/Scenes/#2 Farm Scene.unity
->>>>>>> origin/master-update
+- path: Assets/Assets copy/Scenes/#4 Spooky Farm.unity
   isLoaded: 1
   isActive: 1
