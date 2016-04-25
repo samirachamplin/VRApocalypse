@@ -98,6 +98,7 @@
      <Compile Include="Assets\Assets copy\Scripts\JoystickTest.cs" />
      <Compile Include="Assets\Assets copy\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Assets copy\Scripts\Movement.cs" />
+     <Compile Include="Assets\Assets copy\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Assets copy\Scripts\Raycast.cs" />
      <Compile Include="Assets\Assets copy\Scripts\Wander.cs" />
      <Compile Include="Assets\Assets copy\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
@@ -143,14 +144,8 @@
      <None Include="Assets\Assets copy\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Assets copy\Rewired\Documentation\ReleaseNotes.txt" />
      <None Include="Assets\Assets copy\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
  <Reference Include="Rewired_Core">
- <HintPath>/Users/smchamplin16/Desktop/VRApocalypse/FarmApocalypseRedo/Assets/Assets copy/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
+ <HintPath>/Users/pjhaselhors17/Desktop/VRApocalypse/FarmApocalypseRedo/Assets/Assets copy/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

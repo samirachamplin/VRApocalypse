@@ -31,8 +31,12 @@ public class EnemyAI : MonoBehaviour {
 	{
 		if(other.gameObject == player)
 		{
-			playerHealth.TakeDamage (attackDamage);
-	
+			Invoke("Damage", 1);
 	}
-}
+	}
+	void Damage ()
+	{
+		playerHealth.TakeDamage (attackDamage);
+
+	}
 }
