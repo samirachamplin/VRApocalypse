@@ -1,42 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyAI : MonoBehaviour {
-	PlayerHealth playerHealth;    
-	public GameObject player; 
-	public Transform tr_Player;
-	public float f_RotSpeed=3.0f,f_MoveSpeed = 3.0f;
-	public int attackDamage = 100;   
-	// Use this for initialization
-	void Start () {
+public class EnemyAI: MonoBehaviour {
+	public Transform target;
+	public int moveSpeed;
+	public int rotationSpeed;
+	public bool inTrigger;
+	public int maxDistance;
 
-		tr_Player = GameObject.FindGameObjectWithTag ("Player").transform; }
+	private Transform myTransform;
+
+	void Awake() {
+		myTransform = transform;
+	}
+
+	// Use this for initialization
+	void Start() {
+		GameObject go = GameObject.FindGameObjectWithTag("Player");
+
+		target = go.transform;
+
+		maxDistance = 2;
+	}
 
 	// Update is called once per frame
-	void Awake ()
-	{
-		// Setting up the references.
-		player = GameObject.FindGameObjectWithTag ("Player");
-		playerHealth = player.GetComponent <PlayerHealth> ();
-	}
-	void Update () {
-		/* Look at Player*/
-		transform.rotation = Quaternion.Slerp (transform.rotation , Quaternion.LookRotation (tr_Player.position - transform.position) , f_RotSpeed * Time.deltaTime);
+	void Update() {
 
-		/* Move at Player*/
-		transform.position += transform.forward * f_MoveSpeed * Time.deltaTime;
+		if(inTrigger){
+			myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed * Time.deltaTime);
+
+			if(Vector3.Distance(target.position, myTransform.position) > maxDistance){
+				myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
+			}
+		}
+
 	}
 
-	void OnTriggerEnter (Collider other)
-	{
-		if(other.gameObject == player)
-		{
-			Invoke("Damage", 1);
+	void OnTriggerEnter(Collider other) {
+		inTrigger = true;
 	}
-	}
-	void Damage ()
-	{
-		playerHealth.TakeDamage (attackDamage);
 
+	void OnTriggerExit(Collider other) {
+		inTrigger = false;    
 	}
 }

@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Assets copy/Scenes/#6Level2.unity
-=======
-- path: Assets/Assets copy/Scenes/gazeTest.unity
->>>>>>> origin/master-update
   isLoaded: 1
   isActive: 1
