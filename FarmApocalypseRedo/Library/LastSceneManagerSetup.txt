@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Assets copy/Scenes/#4 Spooky Farm.unity
+- path: Assets/Assets copy/Scenes/gazeTest.unity
   isLoaded: 1
   isActive: 1
