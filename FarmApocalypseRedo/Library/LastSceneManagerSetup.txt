@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/#2 Farm.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/#2 Farm.unity
-=======
-- path: Assets/Scenes/#2 Farm - J's tweak.unity
->>>>>>> origin/master-update
->>>>>>> origin/master-update
   isLoaded: 1
   isActive: 1
