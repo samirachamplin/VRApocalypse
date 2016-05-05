@@ -2584,10 +2584,6 @@ Prefab:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 13700000, guid: 7362a2174c2fe46919390a6be49f8b93, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 637ee15924bba40ba88474b0e4b99599, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7362a2174c2fe46919390a6be49f8b93, type: 3}
   m_IsPrefabParent: 0
@@ -4694,7 +4690,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.24718, y: 5.2149, z: 8.648801}
+  m_Size: {x: 3.89, y: 5.2149, z: 7.65}
   m_Center: {x: -0.00068998337, y: 2.60637, z: 0.00000047683716}
 --- !u!1 &1027797588 stripped
 GameObject:
@@ -5387,6 +5383,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 100038, guid: 7362a2174c2fe46919390a6be49f8b93, type: 3}
   m_PrefabInternal: {fileID: 630297816}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!23 &1290764440
 MeshRenderer:
 =======
@@ -5427,6 +5424,8 @@ MonoBehaviour:
   directionChangeInterval: 90
   maxHeadingChange: 30
 >>>>>>> origin/master-update
+=======
+>>>>>>> parent of 4212355... Fixed Corn
 --- !u!143 &1290764441
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6603,7 +6602,7 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: 08f28b7d091884767a389c0250540a84, type: 2}
   m_TreeDistance: 1300
   m_TreeBillboardDistance: 5
-  m_TreeCrossFadeLength: 200
+  m_TreeCrossFadeLength: 128
   m_TreeMaximumFullLODCount: 550
   m_DetailObjectDistance: 1
   m_DetailObjectDensity: 0.27
