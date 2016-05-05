@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 /// <summary>
@@ -40,7 +39,7 @@ public class Wander : MonoBehaviour
 
 	void OnControllerColliderHit (ControllerColliderHit hit)
 	{
-		if (hit.gameObject.tag != "Boundary") {
+		if (hit.gameObject.tag != "Fence") {
 			return;
 		}
 
