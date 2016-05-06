@@ -5771,13 +5771,40 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100038, guid: 7362a2174c2fe46919390a6be49f8b93, type: 3}
   m_PrefabInternal: {fileID: 630297816}
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!23 &1290764440
+MeshRenderer:
+=======
 --- !u!114 &1290764440
 MonoBehaviour:
+>>>>>>> origin/master-update
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1290764437}
   m_Enabled: 1
+<<<<<<< HEAD
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 637ee15924bba40ba88474b0e4b99599, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cee9b4bc9d3cd42de9e122cb296d1c62, type: 3}
   m_Name: 
@@ -5785,6 +5812,9 @@ MonoBehaviour:
   speed: 5
   directionChangeInterval: 90
   maxHeadingChange: 30
+>>>>>>> origin/master-update
+=======
+>>>>>>> parent of 4212355... Fixed Corn
 --- !u!143 &1290764441
 CharacterController:
   m_ObjectHideFlags: 0
