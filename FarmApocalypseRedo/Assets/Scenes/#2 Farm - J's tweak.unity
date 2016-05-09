@@ -140,6 +140,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -206,6 +210,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -272,6 +280,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -293,7 +305,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &43768507
 Prefab:
@@ -457,6 +469,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -478,7 +494,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &69269473 stripped
 GameObject:
@@ -494,7 +510,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &74015173 stripped
 GameObject:
@@ -510,8 +526,57 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &112575965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 112575968}
+  - 33: {fileID: 112575967}
+  - 136: {fileID: 112575966}
+  m_Layer: 0
+  m_Name: Fence
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &112575966
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112575965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &112575967
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112575965}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &112575968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112575965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.8, y: 4.33, z: -58.51}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
 --- !u!1001 &121118042
 Prefab:
   m_ObjectHideFlags: 0
@@ -584,7 +649,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &187126463 stripped
 GameObject:
@@ -672,6 +737,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -879,6 +948,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -945,6 +1018,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1041,7 +1118,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &271227825
 Prefab:
@@ -1102,6 +1179,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1168,6 +1249,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1234,6 +1319,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1418,6 +1507,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1435,7 +1528,7 @@ GameObject:
   - 4: {fileID: 351681590}
   m_Layer: 0
   m_Name: 'Pen #2'
-  m_TagString: Untagged
+  m_TagString: Fence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1664,6 +1757,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1687,6 +1784,55 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.41, y: 1.08, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &412095613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412095616}
+  - 33: {fileID: 412095615}
+  - 136: {fileID: 412095614}
+  m_Layer: 0
+  m_Name: Fence (2)
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &412095614
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412095613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &412095615
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412095613}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &412095616
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412095613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.92, y: 4.33, z: -59.09}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
 --- !u!1 &427274862 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
@@ -1758,6 +1904,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1824,6 +1974,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1906,6 +2060,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -1913,6 +2071,55 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_PrefabInternal: {fileID: 509979208}
+--- !u!1 &514025784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 514025787}
+  - 33: {fileID: 514025786}
+  - 136: {fileID: 514025785}
+  m_Layer: 0
+  m_Name: Fence (1)
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &514025785
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514025784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &514025786
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514025784}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &514025787
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514025784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.79, y: 4.33, z: -59.7}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
 --- !u!1 &530802033 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
@@ -1927,7 +2134,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &531172919
 GameObject:
@@ -2076,6 +2283,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2142,6 +2353,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2224,6 +2439,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2286,6 +2505,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2460,6 +2683,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2558,6 +2785,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2611,7 +2842,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &843908486
 Prefab:
@@ -2672,6 +2903,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2738,6 +2973,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2836,6 +3075,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -2902,6 +3145,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3039,6 +3286,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3226,7 +3477,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1031002996 stripped
 GameObject:
@@ -3242,7 +3493,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &1038149923
 Prefab:
@@ -3303,6 +3554,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3435,6 +3690,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3456,7 +3715,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &1084551777
 Prefab:
@@ -3517,6 +3776,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3583,6 +3846,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -3895,8 +4162,57 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &1153316254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1153316257}
+  - 33: {fileID: 1153316256}
+  - 136: {fileID: 1153316255}
+  m_Layer: 0
+  m_Name: Fence (3)
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &1153316255
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153316254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1153316256
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153316254}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1153316257
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153316254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.15, y: 4.33, z: 14.39}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
 --- !u!1 &1190188898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,6 +4438,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4188,6 +4508,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4378,6 +4702,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4417,6 +4745,55 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.41, y: 1.08, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &1391875746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1391875749}
+  - 33: {fileID: 1391875748}
+  - 136: {fileID: 1391875747}
+  m_Layer: 0
+  m_Name: Fence
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &1391875747
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391875746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1391875748
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391875746}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1391875749
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391875746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.16, y: 4.33, z: 14.71}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
 --- !u!1 &1431225015 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
@@ -4488,6 +4865,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4554,6 +4935,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4911,6 +5296,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -4989,6 +5378,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5026,7 +5419,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1635113406 stripped
 GameObject:
@@ -5042,7 +5435,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1664767074 stripped
 GameObject:
@@ -5058,7 +5451,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1696528446 stripped
 GameObject:
@@ -5074,7 +5467,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &1709606923
 Prefab:
@@ -5131,6 +5524,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5168,7 +5565,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &1749588798
 Prefab:
@@ -5229,6 +5626,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5250,7 +5651,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1757693739 stripped
 GameObject:
@@ -5266,8 +5667,57 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &1768119255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1768119258}
+  - 33: {fileID: 1768119257}
+  - 136: {fileID: 1768119256}
+  m_Layer: 0
+  m_Name: Fence
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &1768119256
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768119255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1768119257
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768119255}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1768119258
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768119255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.55, y: 4.33, z: 13.1}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
 --- !u!1001 &1768744582
 Prefab:
   m_ObjectHideFlags: 0
@@ -5327,6 +5777,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5393,6 +5847,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5414,7 +5872,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1001 &1853752762
 Prefab:
@@ -5475,6 +5933,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5496,7 +5958,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1931100345 stripped
 GameObject:
@@ -5512,7 +5974,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1944753887 stripped
 GameObject:
@@ -5560,7 +6022,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &1965530757 stripped
 GameObject:
@@ -5578,6 +6040,55 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.41, y: 1.08, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
+--- !u!1 &1966477678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1966477681}
+  - 33: {fileID: 1966477680}
+  - 136: {fileID: 1966477679}
+  m_Layer: 0
+  m_Name: Fence
+  m_TagString: Fence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &1966477679
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966477678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1966477680
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966477678}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1966477681
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966477678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.55, y: 4.33, z: -60.32}
+  m_LocalScale: {x: 7, y: 4, z: 7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
 --- !u!1 &2003437196
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,7 +6285,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
 --- !u!1 &2015257662
 GameObject:
@@ -5786,7 +6297,7 @@ GameObject:
   - 4: {fileID: 2015257663}
   m_Layer: 0
   m_Name: 'Pen #1'
-  m_TagString: Untagged
+  m_TagString: Fence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5887,6 +6398,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -5953,6 +6468,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -6015,6 +6534,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -6153,6 +6676,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -6219,6 +6746,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -7299,6 +7830,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -7365,6 +7900,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -7539,6 +8078,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54bd20e043c0244a6ac839e677a8da9c, type: 2}
+    - target: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
+      propertyPath: m_TagString
+      value: Fence
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
   m_IsPrefabParent: 0
@@ -7560,5 +8103,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 1.08, z: 0.33}
+  m_Size: {x: 1.41, y: 1.2, z: 0.33}
   m_Center: {x: -2.45, y: 0, z: -1.39}
