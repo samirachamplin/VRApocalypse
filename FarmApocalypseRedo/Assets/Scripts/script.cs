@@ -12,6 +12,9 @@ public class script : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void OnTriggerEnter (Collider other)
+	{
+			Debug.Log ("Something");
+			Application.LoadLevel ("#3 Farmhouse");
 	}
 }
