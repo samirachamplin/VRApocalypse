@@ -500,8 +500,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1 &112575965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,8 +1671,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1 &361705202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,8 +3345,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1001 &863084602
 Prefab:
   m_ObjectHideFlags: 0
@@ -5680,8 +5680,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1 &1768119255
 GameObject:
   m_ObjectHideFlags: 0
@@ -6137,8 +6137,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1 &1909389787 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
@@ -6185,8 +6185,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1 &1944753887 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f655575078b9d41ffb97a394dcbf6d3d, type: 3}
@@ -6314,8 +6314,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 5, z: 4.09}
-  m_Center: {x: 0, y: 2.5, z: 2.04}
+  m_Size: {x: 1.82, y: 3.09, z: 3.48}
+  m_Center: {x: 0, y: 1.69, z: 2.04}
 --- !u!1001 &2012264261
 Prefab:
   m_ObjectHideFlags: 0
