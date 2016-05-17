@@ -1169,7 +1169,493 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 8
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Model_0
+        weight: 1
+      - path: Model_1
+        weight: 1
+      - path: Model_2
+        weight: 1
+      - path: Model_3
+        weight: 1
+      - path: Model_4
+        weight: 1
+      - path: Model_5
+        weight: 1
+      - path: Model_6
+        weight: 1
+      - path: Model_7
+        weight: 1
+      - path: Model_8
+        weight: 1
+      - path: Model_9
+        weight: 1
+      - path: Model_10
+        weight: 1
+      - path: Model_11
+        weight: 1
+      - path: Model_12
+        weight: 1
+      - path: Model_13
+        weight: 1
+      - path: Model_14
+        weight: 1
+      - path: Model_15
+        weight: 1
+      - path: Model_16
+        weight: 1
+      - path: Model_17
+        weight: 1
+      - path: Model_18
+        weight: 1
+      - path: Model_19
+        weight: 1
+      - path: Model_20
+        weight: 1
+      - path: Model_21
+        weight: 1
+      - path: Model_22
+        weight: 1
+      - path: Model_23
+        weight: 1
+      - path: Model_24
+        weight: 1
+      - path: Model_25
+        weight: 1
+      - path: Model_26
+        weight: 1
+      - path: Model_27
+        weight: 1
+      - path: Model_28
+        weight: 1
+      - path: Model_29
+        weight: 1
+      - path: Model_30
+        weight: 1
+      - path: Model_31
+        weight: 1
+      - path: Model_32
+        weight: 1
+      - path: Model_33
+        weight: 1
+      - path: Model_34
+        weight: 1
+      - path: Model_35
+        weight: 1
+      - path: Model_36
+        weight: 1
+      - path: Model_37
+        weight: 1
+      - path: Model_38
+        weight: 1
+      - path: Model_39
+        weight: 1
+      - path: Model_40
+        weight: 1
+      - path: Model_41
+        weight: 1
+      - path: Model_42
+        weight: 1
+      - path: Model_43
+        weight: 1
+      - path: Model_44
+        weight: 1
+      - path: Model_45
+        weight: 1
+      - path: Model_46
+        weight: 1
+      - path: Model_47
+        weight: 1
+      - path: Model_48
+        weight: 1
+      - path: Model_49
+        weight: 1
+      - path: Model_50
+        weight: 1
+      - path: Model_51
+        weight: 1
+      - path: Model_52
+        weight: 1
+      - path: Model_53
+        weight: 1
+      - path: Model_54
+        weight: 1
+      - path: Model_55
+        weight: 1
+      - path: Model_56
+        weight: 1
+      - path: Model_57
+        weight: 1
+      - path: Model_58
+        weight: 1
+      - path: Model_59
+        weight: 1
+      - path: Model_60
+        weight: 1
+      - path: Model_61
+        weight: 1
+      - path: Model_62
+        weight: 1
+      - path: Model_63
+        weight: 1
+      - path: Model_64
+        weight: 1
+      - path: Model_65
+        weight: 1
+      - path: Model_66
+        weight: 1
+      - path: Model_67
+        weight: 1
+      - path: Model_68
+        weight: 1
+      - path: Model_69
+        weight: 1
+      - path: Model_70
+        weight: 1
+      - path: Model_71
+        weight: 1
+      - path: Model_72
+        weight: 1
+      - path: Model_73
+        weight: 1
+      - path: Model_74
+        weight: 1
+      - path: Model_75
+        weight: 1
+      - path: Model_76
+        weight: 1
+      - path: Model_77
+        weight: 1
+      - path: Model_78
+        weight: 1
+      - path: Model_79
+        weight: 1
+      - path: Model_80
+        weight: 1
+      - path: Model_81
+        weight: 1
+      - path: Model_82
+        weight: 1
+      - path: Model_83
+        weight: 1
+      - path: Model_84
+        weight: 1
+      - path: Model_85
+        weight: 1
+      - path: Model_86
+        weight: 1
+      - path: Model_87
+        weight: 1
+      - path: Model_88
+        weight: 1
+      - path: Model_89
+        weight: 1
+      - path: Model_90
+        weight: 1
+      - path: Model_91
+        weight: 1
+      - path: Model_92
+        weight: 1
+      - path: Model_93
+        weight: 1
+      - path: Model_94
+        weight: 1
+      - path: Model_95
+        weight: 1
+      - path: Model_96
+        weight: 1
+      - path: Model_97
+        weight: 1
+      - path: Model_98
+        weight: 1
+      - path: Model_99
+        weight: 1
+      - path: Model_100
+        weight: 1
+      - path: Model_101
+        weight: 1
+      - path: Model_102
+        weight: 1
+      - path: Model_103
+        weight: 1
+      - path: Model_104
+        weight: 1
+      - path: Model_105
+        weight: 1
+      - path: Model_106
+        weight: 1
+      - path: Model_107
+        weight: 1
+      - path: Model_108
+        weight: 1
+      - path: Model_109
+        weight: 1
+      - path: Model_110
+        weight: 1
+      - path: Model_111
+        weight: 1
+      - path: Model_112
+        weight: 1
+      - path: Model_113
+        weight: 1
+      - path: Model_114
+        weight: 1
+      - path: Model_115
+        weight: 1
+      - path: Model_116
+        weight: 1
+      - path: Model_117
+        weight: 1
+      - path: Model_118
+        weight: 1
+      - path: Model_119
+        weight: 1
+      - path: Model_120
+        weight: 1
+      - path: Model_121
+        weight: 1
+      - path: Model_122
+        weight: 1
+      - path: Model_123
+        weight: 1
+      - path: Model_124
+        weight: 1
+      - path: Model_125
+        weight: 1
+      - path: Model_126
+        weight: 1
+      - path: Model_127
+        weight: 1
+      - path: Model_128
+        weight: 1
+      - path: Model_129
+        weight: 1
+      - path: Model_130
+        weight: 1
+      - path: Model_131
+        weight: 1
+      - path: Model_132
+        weight: 1
+      - path: Model_133
+        weight: 1
+      - path: Model_134
+        weight: 1
+      - path: Model_135
+        weight: 1
+      - path: Model_136
+        weight: 1
+      - path: Model_137
+        weight: 1
+      - path: Model_138
+        weight: 1
+      - path: Model_139
+        weight: 1
+      - path: Model_140
+        weight: 1
+      - path: Model_141
+        weight: 1
+      - path: Model_142
+        weight: 1
+      - path: Model_143
+        weight: 1
+      - path: Model_144
+        weight: 1
+      - path: Model_145
+        weight: 1
+      - path: Model_146
+        weight: 1
+      - path: Model_147
+        weight: 1
+      - path: Model_148
+        weight: 1
+      - path: Model_149
+        weight: 1
+      - path: Model_150
+        weight: 1
+      - path: Model_151
+        weight: 1
+      - path: Model_152
+        weight: 1
+      - path: Model_153
+        weight: 1
+      - path: Model_154
+        weight: 1
+      - path: Model_155
+        weight: 1
+      - path: Model_156
+        weight: 1
+      - path: Model_157
+        weight: 1
+      - path: Model_158
+        weight: 1
+      - path: Model_159
+        weight: 1
+      - path: Model_160
+        weight: 1
+      - path: Model_161
+        weight: 1
+      - path: Model_162
+        weight: 1
+      - path: Model_163
+        weight: 1
+      - path: Model_164
+        weight: 1
+      - path: Model_167
+        weight: 1
+      - path: Model_168
+        weight: 1
+      - path: Model_169
+        weight: 1
+      - path: Model_171
+        weight: 1
+      - path: Model_172
+        weight: 1
+      - path: Model_174
+        weight: 1
+      - path: Model_175
+        weight: 1
+      - path: Model_176
+        weight: 1
+      - path: Model_177
+        weight: 1
+      - path: Model_178
+        weight: 1
+      - path: Model_180
+        weight: 1
+      - path: Model_181
+        weight: 1
+      - path: Model_183
+        weight: 1
+      - path: Model_184
+        weight: 1
+      - path: Model_186
+        weight: 1
+      - path: Model_187
+        weight: 1
+      - path: Model_189
+        weight: 1
+      - path: Model_190
+        weight: 1
+      - path: Model_192
+        weight: 1
+      - path: Model_193
+        weight: 1
+      - path: Model_196
+        weight: 1
+      - path: Model_197
+        weight: 1
+      - path: Model_198
+        weight: 1
+      - path: Model_200
+        weight: 1
+      - path: Model_201
+        weight: 1
+      - path: Model_203
+        weight: 1
+      - path: Model_204
+        weight: 1
+      - path: Model_205
+        weight: 1
+      - path: Model_206
+        weight: 1
+      - path: Model_207
+        weight: 1
+      - path: Model_208
+        weight: 1
+      - path: Model_209
+        weight: 1
+      - path: Model_210
+        weight: 1
+      - path: Model_211
+        weight: 1
+      - path: Model_212
+        weight: 1
+      - path: Model_213
+        weight: 1
+      - path: Model_214
+        weight: 1
+      - path: Model_215
+        weight: 1
+      - path: Model_216
+        weight: 1
+      - path: Model_217
+        weight: 1
+      - path: Model_218
+        weight: 1
+      - path: Model_219
+        weight: 1
+      - path: Model_220
+        weight: 1
+      - path: Model_221
+        weight: 1
+      - path: Model_222
+        weight: 1
+      - path: Model_223
+        weight: 1
+      - path: Model_224
+        weight: 1
+      - path: Model_225
+        weight: 1
+      - path: Model_226
+        weight: 1
+      - path: Model_227
+        weight: 1
+      - path: Model_228
+        weight: 1
+      - path: Model_229
+        weight: 1
+      - path: Model_230
+        weight: 1
+      - path: Model_231
+        weight: 1
+      - path: Model_232
+        weight: 1
+      - path: Model_233
+        weight: 1
+      - path: Model_234
+        weight: 1
+      - path: Model_235
+        weight: 1
+      - path: Model_236
+        weight: 1
+      - path: Model_237
+        weight: 1
+      - path: Model_238
+        weight: 1
+      - path: Model_239
+        weight: 1
+      - path: Model_240
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
