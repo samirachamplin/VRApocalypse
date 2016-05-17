@@ -981,7 +981,7 @@ MonoBehaviour:
   f_RotSpeed: 3
   f_MoveSpeed: 3
   attackDamage: 100
-  rb: {fileID: 0}
+  rb: {fileID: 1837345378}
 --- !u!54 &1837345378
 Rigidbody:
   m_ObjectHideFlags: 0
