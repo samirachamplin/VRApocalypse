@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/#2 Farm - J's tweak.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/#3 Spooky farm.unity
+=======
+- path: Assets/Scenes/#2 Farm - J's tweak.unity
+>>>>>>> origin/master-update
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
