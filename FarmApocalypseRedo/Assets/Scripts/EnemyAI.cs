@@ -30,11 +30,7 @@ public class EnemyAI : MonoBehaviour {
 	}
 	void FixedUpdate()
 	{
-
 		rb.AddForce(transform.forward * f_MoveSpeed);
-	
-		float stayY = GetComponent<Rigidbody>().transform.position.y;
-		stayY = 0;
 	}
 
 	void OnTriggerEnter (Collider other)
