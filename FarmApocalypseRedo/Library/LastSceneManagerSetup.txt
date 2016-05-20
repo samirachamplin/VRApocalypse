@@ -1,4 +1,24 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/gazeTest.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/gazeTest.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/#5Level1.unity
+=======
+<<<<<<< Updated upstream
+- path: Assets/Scenes/#2 Farm - J's tweak.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/#3 Spooky farm.unity
+=======
+- path: Assets/Scenes/#2 Farm - J's tweak.unity
+>>>>>>> origin/master-update
+>>>>>>> Stashed changes
+>>>>>>> origin/master-update
+>>>>>>> origin/master-update
+>>>>>>> origin/master-update
   isLoaded: 1
   isActive: 1
