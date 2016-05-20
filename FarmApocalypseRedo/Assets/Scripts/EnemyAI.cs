@@ -3,15 +3,15 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
 	PlayerHealth playerHealth;    
-	public GameObject player; 
-	public Transform tr_Player;
+	GameObject player; 
+	Transform tr_Player;
 	public float f_RotSpeed=3.0f,f_MoveSpeed = 3.0f;
 	public int attackDamage = 100;  
-	public Rigidbody rb;
+	Rigidbody rb;
 	// Use this for initialization
 	void Start () {
 		
-		rb = GetComponent<Rigidbody>();
+		rb = this.GetComponent<Rigidbody>();
 		tr_Player = GameObject.FindGameObjectWithTag ("Player").transform; }
 
 	// Update is called once per frame

@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/script.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ZombieAI.js">
     <Files>
+      <File FileName="Assets/Scripts/EnemyAI.cs" Line="10" Column="2" />
       <File FileName="Assets/Scripts/script.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/ZombieAI.js" Line="42" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
