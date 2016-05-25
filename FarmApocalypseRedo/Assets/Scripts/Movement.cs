@@ -28,9 +28,6 @@ public class Movement : MonoBehaviour {
 			moveDirection.y -= gravity * Time.deltaTime;
 			controller.Move(moveDirection * Time.deltaTime);
 
-		if(player.GetButton("Run"))
-		{ 
-				moveDirection + 3;
-		}
+			
 	}
 }  

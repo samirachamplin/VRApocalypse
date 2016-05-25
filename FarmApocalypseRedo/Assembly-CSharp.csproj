@@ -101,9 +101,9 @@
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Raycast.cs" />
      <Compile Include="Assets\Scripts\Shotgun.cs" />
+     <Compile Include="Assets\Scripts\Speed.cs" />
      <Compile Include="Assets\Scripts\Wander.cs" />
      <Compile Include="Assets\Scripts\script.cs" />
-     <Compile Include="Assets\Speed.cs" />
      <None Include="Assets\Rewired\Documentation\licences.txt" />
      <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
