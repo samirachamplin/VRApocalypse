@@ -1519,10 +1519,6 @@ MonoBehaviour:
   health: 100
   resetAfterDeathTime: 5
   deathClip: {fileID: 0}
---- !u!4 &353953863 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
-  m_PrefabInternal: {fileID: 239385659}
 --- !u!1 &361705202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4308,12 +4304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e294c0f3fd754f758d00034a831420b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 353953857}
-  tr_Player: {fileID: 353953863}
   f_RotSpeed: 3
   f_MoveSpeed: 15
   attackDamage: 25
-  rb: {fileID: 1332305172}
 --- !u!65 &1332305174
 BoxCollider:
   m_ObjectHideFlags: 0
