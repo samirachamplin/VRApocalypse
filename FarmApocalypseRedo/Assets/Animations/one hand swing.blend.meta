@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 196982a10d9dd4065b0797f25f376a71
-timeCreated: 1464201530
+guid: ff1cbb161df90469697223c41dc8a047
+timeCreated: 1464204283
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -91,7 +91,7 @@ ModelImporter:
       name: Default Take
       takeName: Default Take
       firstFrame: 0
-      lastFrame: 43
+      lastFrame: 38
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

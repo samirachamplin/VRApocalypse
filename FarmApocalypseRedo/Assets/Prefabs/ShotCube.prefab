@@ -15,7 +15,7 @@ GameObject:
   - 54: {fileID: 5488452}
   m_Layer: 0
   m_Name: ShotCube
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b84bf3505f44b2886480d3739fcb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 10
+  bulletSpeed: 1000000
   bullet: {fileID: 5488452}
 --- !u!1001 &100100000
 Prefab:

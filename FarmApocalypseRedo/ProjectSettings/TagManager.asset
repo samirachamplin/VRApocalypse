@@ -8,6 +8,7 @@ TagManager:
   - Sheep
   - Terain
   - ZombieSheep
+  - Bullet
   layers:
   - Default
   - TransparentFX
