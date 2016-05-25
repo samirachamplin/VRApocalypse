@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour {
 			moveDirection = new Vector3 (player.GetAxis ("MoveHorizontal"), 0, player.GetAxis ("MoveVertical"));
 				moveDirection = transform.TransformDirection(moveDirection);
 				moveDirection *= speed;
-		if(player.GetButton("Jump"))
+		if(player.GetButton("nobutton"))
 		{
 		moveDirection.y = jumpSpeed;
 		}

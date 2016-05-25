@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: e2820d961af9c49c2b2237b0cd1f60c9
-timeCreated: 1464189245
+guid: 196982a10d9dd4065b0797f25f376a71
+timeCreated: 1464201530
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -91,7 +91,7 @@ ModelImporter:
       name: Default Take
       takeName: Default Take
       firstFrame: 0
-      lastFrame: 41
+      lastFrame: 43
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -99,7 +99,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

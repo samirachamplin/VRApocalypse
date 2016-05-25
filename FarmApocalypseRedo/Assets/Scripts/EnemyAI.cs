@@ -3,41 +3,37 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
 	PlayerHealth playerHealth;    
-	GameObject player; 
-	Transform tr_Player;
+	public GameObject player; 
+	public Transform tr_Player;
 	public float f_RotSpeed=3.0f,f_MoveSpeed = 3.0f;
 	public int attackDamage = 100;  
-	Rigidbody rb;
+
 	// Use this for initialization
 	void Start () {
 		
-		rb = this.GetComponent<Rigidbody>();
-		tr_Player = GameObject.FindGameObjectWithTag ("Player").transform; }
+	
+	}
 
 	// Update is called once per frame
 	void Awake ()
 	{
-		// Setting up the references.
-		player = GameObject.FindGameObjectWithTag ("Player");
+		
 		playerHealth = player.GetComponent <PlayerHealth> ();
 	}
 	void Update () {
 		/* Look at Player*/
+
 		transform.rotation = Quaternion.Slerp (transform.rotation , Quaternion.LookRotation (tr_Player.position - transform.position) , f_RotSpeed * Time.deltaTime);
 
 		/* Move at Player*/
-		//transform.position += transform.forward * f_MoveSpeed * Time.deltaTime;
-	}
-	void FixedUpdate()
-	{
-		rb.AddForce(transform.forward * f_MoveSpeed);
+		transform.position += transform.forward * f_MoveSpeed * Time.deltaTime;
 	}
 
 	void OnTriggerEnter (Collider other)
 	{
 		if(other.gameObject == player)
 		{
-			Invoke("Damage", 1);
+			Invoke("Damage", 0.25f);
 		}
 	}
 	void Damage ()
