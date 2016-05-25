@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: e2820d961af9c49c2b2237b0cd1f60c9
+timeCreated: 1464189245
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AnkleLeft
+    100002: AnkleRight
+    100004: Armature
+    100006: Base_Humanoid
+    100008: ElbowLeft
+    100010: ElbowRight
+    100012: FootLeft
+    100014: FootRight
+    100016: HandLeft
+    100018: HandRight
+    100020: HandTipLeft
+    100022: HandTipRight
+    100024: Head
+    100026: HipLeft
+    100028: HipRight
+    100030: KneeLeft
+    100032: KneeRight
+    100034: Neck
+    100036: //RootNode
+    100038: ShoulderLeft
+    100040: ShoulderRight
+    100042: SpineBase
+    100044: SpineMid
+    100046: SpineShoulder
+    100048: ThumbLeft
+    100050: ThumbRight
+    100052: WristLeft
+    100054: WristRight
+    400000: AnkleLeft
+    400002: AnkleRight
+    400004: Armature
+    400006: Base_Humanoid
+    400008: ElbowLeft
+    400010: ElbowRight
+    400012: FootLeft
+    400014: FootRight
+    400016: HandLeft
+    400018: HandRight
+    400020: HandTipLeft
+    400022: HandTipRight
+    400024: Head
+    400026: HipLeft
+    400028: HipRight
+    400030: KneeLeft
+    400032: KneeRight
+    400034: Neck
+    400036: //RootNode
+    400038: ShoulderLeft
+    400040: ShoulderRight
+    400042: SpineBase
+    400044: SpineMid
+    400046: SpineShoulder
+    400048: ThumbLeft
+    400050: ThumbRight
+    400052: WristLeft
+    400054: WristRight
+    4300000: Base_Humanoid
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: Base_Humanoid
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/SpineBase
+        weight: 1
+      - path: Armature/SpineBase/HipLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft/AnkleLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: Armature/SpineBase/HipRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight/AnkleRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight/AnkleRight/FootRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/Neck
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/Neck/Head
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft/HandTipLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight/HandTipRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight/ThumbRight
+        weight: 1
+      - path: Base_Humanoid
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/SpineBase
+        weight: 1
+      - path: Armature/SpineBase/HipLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft/AnkleLeft
+        weight: 1
+      - path: Armature/SpineBase/HipLeft/KneeLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: Armature/SpineBase/HipRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight/AnkleRight
+        weight: 1
+      - path: Armature/SpineBase/HipRight/KneeRight/AnkleRight/FootRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/Neck
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/Neck/Head
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft/HandTipLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderLeft/ElbowLeft/WristLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight/HandTipRight
+        weight: 1
+      - path: Armature/SpineBase/SpineMid/SpineShoulder/ShoulderRight/ElbowRight/WristRight/HandRight/ThumbRight
+        weight: 1
+      - path: Base_Humanoid
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

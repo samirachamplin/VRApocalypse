@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fence
   - Sheep
+  - Terain
   layers:
   - Default
   - TransparentFX
